@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traductor</title>
+  <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="layout">
+    <!-- Barra superior -->
+    <header class="layout__header">
+      <div class="header__logo">
+        <i class="fa-solid fa-language"></i>
+      </div>
+      <h1 class="header__title">Traductor</h1>
+    </header>
+
+    <!-- Buscador y selector de idioma -->
+    <section class="layout__search">
+      <div class="search__input-box">
+        <input type="text" class="search__input" placeholder="Introduce una palabra">
+        <i class="fa-solid fa-magnifying-glass search__icon"></i>
+      </div>
+
+      <div class="search__lang">
+        <span>Español</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- Contenido principal -->
+    <main class="layout__main">
+      <!-- Palabra y botón de audio -->
+      <div class="main__word">
+        <h2 class="word__title">Ordenador</h2>
+        <button class="word__play">
+          <i class="fa-solid fa-play"></i>
+        </button>
+      </div>
+
+      <!-- Subtítulo con líneas laterales -->
+      <div class="main__divider">
+        <span class="divider__line"></span>
+        <h3 class="divider__text">Traduccion</h3>
+        <span class="divider__line"></span>
+      </div>
+
+      <!-- Lista de definiciones -->
+      <ul class="main__list">
+        <li class="list__item">
+          <span class="item__highlight">Ordenador:</span> Máquina electrónica capaz de almacenar información y tratarla automáticamente mediante operaciones matemáticas y lógicas controladas por programas informáticos
+        </li>
+        <li class="list__item">
+          <span class="item__highlight">Ordenador compatible</span> Ordenador capaz de ejecutar los mismos programas que otros ordenadores del mismo tipo.
+        </li>
+        <li class="list__item">
+          <span class="item__highlight">Ordenador personal:</span> Ordenador de sobremesa que incluye unidad central, teclado, pantalla y una o más unidades de disco y que puede funcionar sin estar conectado a una red informática.
+        </li>
+        <li class="list__item">
+          <span class="item__highlight">Ordenador portátil:</span> Ordenador personal de peso y tamaño tan reducidos que se puede llevar cómodamente de un lado a otro, como si fuera un maletín; una batería incorporada le permite cierta autonomía de funcionamiento.
+        </li>
+      </ul>
+
+      <!-- Sinónimos -->
+      <div class="main__synonyms">
+        <span class="synonyms__label">Sinónimos:</span>
+        <span class="synonyms__words">Computador Procesadora Computadora</span>
+      </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="layout__footer">
+      <p>Todos los derechos reservados a Victor Robles &copy;</p>
+    </footer>
+  </div>
+</body>
+</html>
